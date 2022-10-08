@@ -1,5 +1,8 @@
-module.exports = function (context, req) {
-    jsonData = {
+import json
+
+
+def lambda_handler(event, context):
+    return {
         "basics": {
             "name": "Lasantha Sanjeewa Silva",
             "label": "DevOps&Cloud",
@@ -17,27 +20,27 @@ module.exports = function (context, req) {
                 "username": "LasanthaSilva96",
                 "url": "https://twitter.com/LasanthaSilva96"
             },
-            {
+                {
                 "network": "Linkedin",
                 "username": "Lasantha Sanjeewa Silva",
                 "url": "https://www.linkedin.com/in/lasanthasilva/"
             },
-            {
+                {
                 "network": "dev.to",
                 "username": "lasanthasilva",
                 "url": "https://dev.to/lasanthasilva"
             },
-            {
+                {
                 "network": "medium",
                 "username": "lsanjeewa947",
                 "url": "https://medium.com/@lsanjeewa947"
             },
-            {
+                {
                 "network": "hashnode",
                 "username": "LasanthaSilva",
                 "url": "https://lasanthasilva.hashnode.dev/"
             },
-            {
+                {
                 "network": "GitHub",
                 "username": "sanju2",
                 "url": "https://github.com/sanju2"
@@ -73,7 +76,7 @@ module.exports = function (context, req) {
             "date": "2022-03-05",
             "awarder": "AWS",
         },
-        {
+            {
             "title": "Postman Student Expert",
             "date": "2022-04-11",
             "awarder": "Postman",
@@ -116,9 +119,3 @@ module.exports = function (context, req) {
             ]
         }]
     }
-
-    context.res = {
-        body: JSON.stringify(jsonData, null, 2)
-    };
-    context.done();
-};
