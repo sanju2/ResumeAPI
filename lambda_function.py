@@ -2,7 +2,7 @@ import json
 
 
 def lambda_handler(event, context):
-    return {
+    json_data = [{
         "basics": {
             "name": "Lasantha Sanjeewa Silva",
             "label": "DevOps&Cloud",
@@ -118,4 +118,8 @@ def lambda_handler(event, context):
                 "DevSecOps"
             ]
         }]
-    }
+    }]
+
+    return {'statusCode': 200,
+            'body': json_data
+            }
