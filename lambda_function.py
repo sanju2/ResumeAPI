@@ -8,12 +8,11 @@ def lambda_handler(event, context):
             "label": "DevOps&Cloud",
             "picture": "",
             "email": "lsanjeewa947@gmail.com",
-            "website": "https://sanju2.github.io/",
+            "website": "https://devopswithlasantha.tech",
             "summary": "Cloud & DevOps Enthusiast/AWS Community Builder",
             "location": {
-                "address": "Ambalangoda/SriLanka",
-                "city": "Ambalangoda",
-                "countryCode": "80300"
+                "address": "Al Nahda2,Dubai,UAE",
+                "city": "Dubai"
             },
             "profiles": [{
                 "network": "Twitter",
@@ -33,12 +32,7 @@ def lambda_handler(event, context):
                 {
                 "network": "medium",
                 "username": "lsanjeewa947",
-                "url": "https://medium.com/@lsanjeewa947"
-            },
-                {
-                "network": "hashnode",
-                "username": "LasanthaSilva",
-                "url": "https://lasanthasilva.hashnode.dev/"
+                "url": "https://medium.com/@lasanthasilva"
             },
                 {
                 "network": "GitHub",
@@ -50,7 +44,7 @@ def lambda_handler(event, context):
             "company": "Toshiba Elevator Middle East LLC",
             "position": "Information Technology Assistant",
             "startDate": "2022-08-22",
-            "summary": "Active Directory & Windows OS",
+            "summary": "Active Directory, Windows OS, MS365, Networking",
         }, {
             "company": "Calcey Technologies",
             "position": "Associate DevOps Engineer",
@@ -59,12 +53,18 @@ def lambda_handler(event, context):
             "summary": "Work with AWS & CI/CD",
         }, {
             "company": "LOLC Technologies Ltd",
-            "position": "LOLC TECHNOLOGIES LTD",
+            "position": "Cloud & DevOps Intern",
             "startDate": "2021-01-06",
             "endDate": "2021-07-05",
-            "summary": "Work with OCI & CI/CD",
+            "summary": "Work with OCI,GCP & CI/CD",
         }],
         "education": [{
+            "institution": "Uva Wellassa University of SriLanka",
+            "area": "Computer Science",
+            "studyType": "Master Degree",
+            "startDate": "2023-07-29",
+            "endDate": "Present",
+        },{
             "institution": "Uva Wellassa University of SriLanka",
             "area": "Computer Science",
             "studyType": "Bachelor Degree",
@@ -115,7 +115,7 @@ def lambda_handler(event, context):
             "name": "Tech Blogging",
             "keywords": [
                 "Article Writing",
-                "DevSecOps"
+                "DevOps, DevSecOps, Cloud & AWS"
             ]
         }]
     }]
